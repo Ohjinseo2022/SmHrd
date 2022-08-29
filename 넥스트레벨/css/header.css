@@ -1,0 +1,98 @@
+:root {
+  /*메인 컬러 */
+  --font-color: #fff;
+  --main-color: orange;
+  /*폰트 사이즈*/
+  /**/
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+
+#main_header {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 130px;
+  align-items: center;
+  background-color: gray;
+  opacity: 0.5;
+}
+#Search_bar {
+  height: 50px;
+  width: 500px;
+}
+.main_logo {
+  width: 100px;
+  height: 100px;
+}
+
+#login_sign > a {
+  color: whitesmoke;
+}
+#navber {
+  display: flex;
+  margin: 0 auto;
+  width: 1440px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: orange;
+  opacity: 0.5;
+  height: 50px;
+}
+
+.menu_item {
+  font-size: 2rem;
+  font-weight: bold;
+  color: balck;
+}
+.menu_item:hover {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+#menu_bar {
+  width: 1440px;
+  margin: 0 auto;
+}
+#menu {
+  position: relative;
+  background-color: #e6e6e6;
+  display: none;
+  width: 100px;
+  text-align: left;
+  margin-left: 100px;
+  z-index: 1000;
+}
+
+#menu > li:hover {
+  background-color: gray;
+  color: whitesmoke;
+}
+
+#menu > li {
+  display: flex;
+}
+.add_menu_list {
+  opacity: 0;
+  position: absolute;
+  left: 100px;
+  color: black;
+  width: 150px;
+  background-color: darkgray;
+  transition: all 1s;
+}
+/* .add_menu:hover + div {
+  opacity: 1;
+} */
+
+.add_menu_list > ul > li:hover {
+  background-color: gray;
+  color: whitesmoke;
+}
